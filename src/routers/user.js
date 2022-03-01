@@ -83,6 +83,7 @@ router.delete('/users/me', auth, async (req, res) => {
     }
 })
 
+// Uploading profile picture
 const upload = multer({
     limits: {
         fileSize: 1000000
